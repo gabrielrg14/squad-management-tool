@@ -1,0 +1,10 @@
+.SectionTitle {
+    color: #A6A6A6;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 40px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

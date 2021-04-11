@@ -1,0 +1,36 @@
+.PlayersPicked {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, #AA397C, #782C80);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 #E9E3E9;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+.PlayersPicked .player {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.PlayersPicked .player-percentage {
+    padding-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.PlayersPicked .player-percentage .percentage {
+    border-bottom: 1px solid #FFFFFF;
+    padding-right: 20px;
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+.PlayersPicked .vertical-line {
+    border-right: 1px solid #FFFFFF;
+    height: 100%;
+}

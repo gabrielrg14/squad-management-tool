@@ -1,0 +1,5 @@
+.content {
+    grid-area: content;
+    background-color: #F7F3F7;
+    padding: 60px 40px 40px;
+}

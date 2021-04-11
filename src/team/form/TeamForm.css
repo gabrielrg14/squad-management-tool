@@ -1,0 +1,15 @@
+.TeamForm .football-field {
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom, #AA397C, #782C80);
+    margin-top: 20px;
+}
+
+.TeamForm .save-button {
+    width: 100%;
+    background: linear-gradient(to bottom, #AA397C, #782C80);
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: 20px 0px;
+}

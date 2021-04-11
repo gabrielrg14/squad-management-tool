@@ -1,0 +1,56 @@
+.form-group .form-check .form-check-label {
+    font-size: 1em;
+    padding-right: 70px;
+}
+
+.form-group .form-check .form-check-input {
+    margin-right: 10px;
+}
+
+.form-group .form-check .form-check-input:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    top: -5px;
+    left: 1px;
+    position: relative;
+    background-color: #FFFFFF;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.form-group .form-check .form-check-input:checked:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 15px;
+    top: -5px;
+    left: 1px;
+    position: relative;
+    background-color: #B54380;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.form-group .form-check .form-check-input:checked+label {
+    color: #B54380;
+    font-weight: 600;
+}
+
+.form-group > textarea {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    resize: none;
+}
+
+.form-inline > label {
+    padding-right: 30px;
+}
+
+.form-inline > select,
+.form-inline > select option {
+    font-weight: bold;
+}

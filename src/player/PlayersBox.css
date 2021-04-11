@@ -1,0 +1,23 @@
+.PlayerBox {
+    background: linear-gradient(to bottom, #FBFBFB, #ECECEC);
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px dashed #ECECEC;
+    margin-bottom: 10px;
+}
+
+.PlayerBox strong {
+    padding-right: 5px;
+}
+
+.PlayerBox .player-information {
+    color: #D66589;
+    font-weight: 600;
+}
+
+.PlayerBox .name-age {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

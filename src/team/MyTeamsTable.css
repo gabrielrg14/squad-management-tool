@@ -1,0 +1,32 @@
+td.MuiTableCell-root {
+    border-bottom: none;
+}
+
+.table-row {
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.table-row:hover {
+    background-color: #F7EEF7;
+}
+
+.table-row:hover .table-cell {
+    color: #C2689A;
+    font-weight: bold;
+}
+
+.table-row .table-cell .icon-buttons {
+    visibility: hidden;
+}
+
+.table-row:hover .table-cell .icon-buttons {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.table-row .table-cell .icon-buttons .ic-button {
+    color: #C2689A;
+    margin-left: 5px;
+}

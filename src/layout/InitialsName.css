@@ -1,0 +1,9 @@
+.InitialsName {
+    border-radius: 50%;
+    vertical-align: middle;
+    color: #777878;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

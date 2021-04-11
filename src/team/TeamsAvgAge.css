@@ -1,0 +1,29 @@
+.TeamsAvgAge .teams-box {
+    background-color: #E9E3E8;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.TeamsAvgAge .teams-box .TeamAvgLine {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+
+    text-decoration: none;
+    color: #212529;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.TeamsAvgAge .teams-box .TeamAvgLine:hover {
+    border: 1px solid #C70B48;
+}
+
+.TeamsAvgAge .teams-box .TeamAvgLine:last-child {
+    margin-bottom: 0px;
+}

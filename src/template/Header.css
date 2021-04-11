@@ -1,0 +1,38 @@
+.header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #BF0E4F, #8B1F6E);
+    color: #FFFFFF;
+    padding: 0px 40px 0px 40px;
+}
+
+.header .logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo-title a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header .logo-title .logo {
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header span {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.header .user {
+    display: flex;
+    align-items: center;
+}

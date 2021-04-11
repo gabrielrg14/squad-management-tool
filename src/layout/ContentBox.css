@@ -1,0 +1,31 @@
+.ContentBox {
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 #E9E3E9;
+    padding: 30px;
+}
+
+.ContentBox .content-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContentBox .content-row .content-title {
+    color: #7857A2;
+}
+
+.ContentBox .content-row .add-button {
+    background: linear-gradient(to bottom, #AA397C, #782C80);
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+
+.ContentBox hr {
+    margin: 30px -30px;
+    border: 0;
+    border-top: 1px solid #EEEEEE;
+}
