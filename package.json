@@ -1,7 +1,25 @@
 {
-  "name": "frontend",
+  "name": "squad-management-tool",
   "version": "0.1.0",
   "private": true,
+  "description": "Tool for creating and managing football teams, searching for players and displaying statistics.",
+  "author": "Gabriel Rapucci Gonzalez <gabrielrapuccigonzalez14@hotmail.com> (https://gabrielrapucci.com.br)",
+  "homepage": "https://github.com/gabrielrg14/squad-management-tool#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabrielrg14/squad-management-tool"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielrg14/squad-management-tool/issues"
+  },
+  "keywords": [
+    "reactjs",
+    "redux",
+    "squad-management-tool",
+    "frontend",
+    "portfolio"
+  ],
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

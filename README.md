@@ -1,15 +1,41 @@
-# Steps to run the application:
+# Squad Management Tool
 
-First of all, you will need to download the code from this repository, clicking on the green "Code" button and choosing the option you want.
+Tool for creating and managing football teams, searching for players and displaying statistics.
 
-If you have chosen the option for ".zip", please unzip the folder in the desired location.
-With the repository downloaded, open the command terminal of your operating system and enter the equivalent command to enter the repository folder.
+## ⚙️ Technologies
 
-With the repository folder open in the terminal, type the following command: "npm i", this command will install all dependencies used in the project, it is worth remembering that it is necessary to have installed the npm package manager on the machine.
+Technologies studied and used to carry out this project:
 
-After installing the packages, the following command must be run on the terminal: "npm start", which will start a server at localhost and automatically open the application in a new tab in the standard browser.
+- [`React`](https://react.dev/)
+- [`Redux`](https://redux.js.org/)
+- [`Bootstrap`](https://getbootstrap.com/)
 
-That's all folks :D
-I wish you a good evaluation of the project!
+## 📝 Pre-requirements
 
-Notes: The API created and used by Frontend is in the cloud, on the free hosting platform Heroku, while the database is in a MongoDB Cluster, so it is not necessary to perform any installation/execution related to it.
+To clone and run this project, you will need:
+
+- [`Git`](https://git-scm.com/)
+- [`Node.js`](https://nodejs.org/)
+- [`npm`](https://www.npmjs.com/)
+
+**Note:** When installing Node.js, npm is automatically installed. 🎉
+
+## 🛠️ Installation
+
+```bash
+$ npm install
+```
+
+## 🏃 Running the app
+
+```bash
+# development
+$ npm run start
+
+# build
+$ npm run build
+```
+
+___
+
+Made with 💚 by [Gabriel Rapucci](https://gabrielrapucci.com.br).
